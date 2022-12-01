@@ -6,14 +6,14 @@
     }
 }
 
-Console.WriteLine("Введите размерность массива: ");
+Console.WriteLine("Введите количество значений, которое хотите проверить : ");
 int size = Convert.ToInt32(Console.ReadLine());
 
 string[] inputArray = new string[size];
 
 for(int i = 0; i < inputArray.Length; i++)
 {
-    Console.WriteLine($"Введите значение № {i+1}");
+    Console.WriteLine($"Введите значение № {i+1}: ");
     inputArray[i] = Console.ReadLine();
 }
 
