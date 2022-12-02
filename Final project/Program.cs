@@ -15,10 +15,10 @@ for(int i = 0; i < inputArray.Length; i++)
 {
     Console.WriteLine($"Введите значение № {i+1}: ");
     inputArray[i] =  Console.ReadLine()!;
-    
+
     if (inputArray[i] == null)
     {
-        inputArray[i] = " ";
+        inputArray[i] = "";
     }
 }
 
